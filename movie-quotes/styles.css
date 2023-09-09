@@ -1,0 +1,26 @@
+header {
+    color:rgb(119, 228, 18)
+}
+html {
+    background-color: rgb(28, 28, 31);
+    color: white;
+    font-family:"Courier New";
+    margin-top: 40px;
+    margin-left:480px;
+    margin-right:480px;
+    margin-bottom: 210px;
+    font-size: 18px;
+}
+
+body {
+    letter-spacing: .001px;
+    line-height: 27px;
+}
+
+h2 {
+    color: rgb(166, 167, 175)
+}
+
+img {
+    opacity: 0.5;
+}
