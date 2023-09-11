@@ -1,0 +1,79 @@
+html {
+    background-color: rgb(210, 218, 221);
+}
+
+h1{
+    font-family:monospace;
+    margin-top:40px;
+    color:rgb(55, 0, 236);
+}
+
+  .sketch-highlight{
+    position:relative;
+    padding: 0 5px;
+  }
+  
+  .sketch-highlight:before{
+    content:"";
+    z-index:-1;
+    left:0em;
+    top:0em;
+    border-width:3px;
+    border-style:solid;
+    border-color:rgb(255, 255, 255);
+    position:absolute;
+    border-right-color:transparent;
+    width:13%;
+    height:1em;
+    transform:rotate(2deg);
+    opacity:0.5;
+    border-radius:0.25em;
+  }
+  
+  .sketch-highlight:after{
+    content:"";
+    z-index:-1;
+    left:0em;
+    top:0em;
+    border-width:3px;
+    border-style:solid;
+    border-color:rgb(255, 255, 255);
+    border-left-color:transparent;
+    border-top-color:transparent;
+    position:absolute;
+    width:13%;
+    height:1em;
+    transform:rotate(-1deg);
+    opacity:0.5;
+    border-radius:0.25em;
+  }
+
+body{
+    font-family:"courier new";
+    margin-top:30px;
+    margin-left:350px;
+    font-size:18px;
+    letter-spacing:0.01px;
+    line-height:25px;
+}
+
+iframe{
+    float:right;
+    margin-right:300px;
+    height:500px;
+}
+
+main{
+    border:3px dotted white; background:rgb(243, 248, 255);
+    margin-right:880px;
+}
+
+#about{
+    color:rgb(92, 93, 99);
+    font-size:15px;
+    line-height:20px;
+    font-family:monospace;
+    margin-left:750px;
+    margin-right:300px;
+    margin-top:-1800px
+}
