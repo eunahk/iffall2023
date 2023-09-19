@@ -1,0 +1,99 @@
+html {
+    background-color: rgb(56, 46, 41);
+    color: rgb(255, 88, 58);
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    margin-top: -10%;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+body {
+    margin: 15%;
+}
+
+section {
+    margin-left:10%;
+}
+
+.FontWeight {
+    margin-bottom: 80px;
+}
+
+.FontStyle {
+    margin-bottom: 80px;
+}
+
+.LetterSpacing {
+    margin-bottom: 80px;
+}
+
+.TextDecoration {
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-size: 20 px;
+    color: rgb(235, 138, 73);
+}
+
+h3 {
+    font-size: .6rem;
+    color: rgb(247, 191, 87);
+    margin-bottom: -1.5em;
+}
+
+p {
+    color: rgb(255, 250, 179);
+}
+
+.Normal {
+    font-weight: normal;
+}
+
+.Bold {
+    font-weight: bold;
+}
+
+.Italic {
+    font-style: italic;
+}
+
+.Wide {
+    letter-spacing: .3em;
+}
+
+.Narrow {
+    letter-spacing: -.06em;
+}
+
+.Underline {
+    text-decoration: underline;
+}
+
+.Line-through {
+    text-decoration: line-through;
+}
+
+.Overline {
+    text-decoration: overline;
+}
+
+.Uppercase {
+    text-transform: uppercase;
+}
+
+.Lowercase {
+    text-transform: lowercase;
+}
+
+.Capitalize {
+    text-transform: capitalize;
+}
