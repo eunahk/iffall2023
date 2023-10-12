@@ -1,0 +1,114 @@
+html{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header{
+    background-color: rgba(225,0,0,0.3);
+    background-image: url("img/cloud.png");
+    background-size:cover;
+    background-position:top center;
+    text-align: center;
+}
+
+section.intro_text{
+    background-color: rgb(180, 193, 212);
+}
+
+h1,h2,h3,p{
+    margin:0;
+}
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size:30px;
+    line-height:34.1px;
+    padding-bottom: 56px;
+}
+
+h3{
+    font-size: 40px;
+    text-align:center;
+    padding-top: 40px;
+    padding-bottom: 33px;
+}
+
+p{
+    font-size: 18px;
+    padding-bottom:17px;
+}
+
+.cloud_img{
+    height:300px;
+    width:400px;
+    float:right;
+    margin-left:40px;
+    margin-bottom:40px;
+}
+
+.column_container {
+    width:960px;
+    margin:auto;
+    padding-bottom:41px;
+}
+
+header .column_container{
+    padding-top:152px;
+    padding-bottom:130px;
+}
+
+section.content_grid{
+    background-color: rgb(219, 226, 226);
+    height:688px;
+}
+
+.content_grid h3{
+    padding-bottom:17px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+li{
+    display: block;
+}
+
+h4{
+    font-size:20px;
+    margin: 0;
+}
+
+.content_grid p{
+    padding-top:7px;
+    width:430px;
+}
+
+.grid_cloud_img{
+    width:200px;
+    height:150px;
+    float:left;
+    margin-bottom:24px;
+    margin-right:12px;
+}
+
+section.closing_summary{
+    background-color: rgb(155, 180, 228);
+    height:408px;
+}
+
+.closing_summary p{
+    font-size:26px;
+    line-height:36px;
+    text-align:center;
+    margin-left: 127px;
+    margin-right: 126px;
+}
+
+footer .column_container{
+    padding-top: 40px;
+}
