@@ -1,0 +1,395 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+
+
+
+
+a#btn_michaelkors {
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size:22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    margin-top:110px;
+    color:black;
+
+}
+
+a#btn_michaelkors:hover {
+    animation: letter-spacing-animation 1s infinite alternate;
+}
+
+@keyframes letter-spacing-animation {
+    0% {
+       letter-spacing: 0px;
+    }
+    100% {
+       letter-spacing: 5px;
+    }
+ }
+
+a#btn_apple {
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+a#btn_apple:hover {
+    display: block;
+    transform-origin: center bottom;
+    animation-name: shake;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shake {
+    from { transform: rotate(-7deg); }
+    33% { transform: rotate(4deg); }
+    66% { transform: rotate(-4deg); }
+    to { transform: rotate(7deg); }
+  }
+
+.apple_logo {
+    width:220px;
+    
+}
+
+a#btn_cartoonnetwork {
+    font-family: 'Work Sans', sans-serif;
+    font-weight:900;
+    font-size:110px;
+    line-height:90px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #000;
+    border: 10px solid black;
+    color:white;
+    display: inline-block;
+    margin: auto;
+    margin-top:70px;
+    display: inline-block;
+    height: 110px;
+    box-sizing: border-box;
+    padding: 0px 8px 13px 8px;
+    transition: all .2s;
+}
+
+a#btn_cartoonnetwork:hover {
+    color:black;
+    background-color: white;
+
+}
+
+a#btn_nike {
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+    font-size:40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    margin-top:90px;
+    margin-left:20px;
+    color:black;
+}
+
+a#btn_nike:hover {
+    transform: translate(40px, -20px);
+    color:rgb(255, 115, 0);
+}
+
+.nike_logo {
+    width:160px;
+    
+}
+
+a#btn_samsung {
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+    font-size:40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    margin-top:90px;
+    color:#2a7ecc;
+    transition:all .2s;
+
+}
+
+a#btn_samsung:hover {
+    color:white;
+    text-shadow: 1px 1px 8px rgba(4, 72, 150, 0.9);
+}
+
+a#btn_facebook {
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    font-size: 110px;
+    text-decoration: none;
+    display: inline-block;
+    height: 110px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 5px 20px 0 50px;
+    background-color: #2a7ecc;
+    color: #fff;
+    transition: all .3s;
+}
+
+a#btn_facebook:hover {
+    box-shadow: 12px 12px 2px 1px rgba(0, 81, 255, 0.3);
+    background: linear-gradient(to bottom, #6eafe5 0%,#3d7ace 100%)
+}
+
+.facebook_logo {
+    width:110px;
+    
+}
+
+a#btn_ibm {
+    font-family: 'Roboto Slab', serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#72889c;
+    display: inline-block;
+    margin: auto;
+    margin-top:70px;
+    padding: 0px 20px 0px 20px;
+    transition: all .3s;
+}
+
+a#btn_ibm:hover {
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color:#19222c;
+}
+
+a#btn_mollyjogger {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size:37px;
+    color:rgb(48, 73, 38);
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+    transition: 0.8s;
+
+}
+
+a#btn_mollyjogger:hover {
+    transform: rotateY(360deg);
+}
+
+
+a#btn_sardellastl {
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size:75px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 5px;
+    background-color: #386466;
+    color:rgb(241, 96, 71);
+    transition: all .5s;
+}
+
+a#btn_sardellastl:hover {
+    transform: rotate(40deg);
+    color: #386466;
+    background-color: rgb(241, 96, 71);
+
+}
+
+a#btn_nbc {
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+    font-size:70px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    color:rgb(33, 0, 182);
+    transition: all .5s;
+}
+
+a#btn_nbc:hover {
+    text-shadow: 1px 1px 20px rgb(62, 123, 255);
+    color:rgb(33, 0, 182);
+    animation: blink 1.3s steps(20, end) infinite;
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 15;
+    }
+}
