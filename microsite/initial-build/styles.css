@@ -1,0 +1,112 @@
+html{
+    font-family: "degular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: rgb(245, 245, 215);
+}
+
+header{
+    
+}
+
+section.nav{
+    height:min-content;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top:8%;
+}
+
+.nav_grid{
+    list-style-type: none;
+    float:left;
+    padding: 0;
+    display: block;
+    justify-content: space-between;
+}
+
+.nav_grid li{
+    width:100%;
+    text-align:left;
+    font-size:0.8rem;
+    margin-bottom:1rem;
+}
+
+h1,h2{
+    margin:0;
+}
+
+.column_container {
+    width:960px;
+    margin: auto;
+    padding-bottom:41px;
+}
+
+header .column_container{
+    padding-top:220px;
+    padding-bottom:220px;
+}
+
+header h1{
+    font-size: 180px;
+    letter-spacing: 50px;
+}
+
+header h2{
+    font-size: 50px;
+}
+
+section.intro_page{
+    padding-top: 60px;
+}
+
+footer{
+    background-color: rgb(179, 153, 115);
+
+}
+
+section.tracklist{
+    margin-top:-320px;
+}
+
+section.tracklist_nav{
+    height:min-content;
+    position: fixed;
+    margin-left: 19%;
+    top: 0;
+    width: 60%;
+}
+
+.tracklist_nav_grid{
+    list-style-type: none;
+    float:none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tracklist_nav_grid li{
+    width:100%;
+    text-align:center;
+}
+
+.tracklist{
+    padding-bottom:25%;
+}
+
+.tracklist h2{
+    font-size: 70px;
+}
+
+.tracklist div{
+    margin-left: 25%;
+}
+
+section.sources{
+    margin-top:-320px;
+}
+
+.sources h2{
+    font-size:70px;
+}
