@@ -1,0 +1,680 @@
+html{
+    font-family: "degular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: rgb(245, 245, 215);
+}
+
+body{
+    margin: 0;
+}
+
+
+
+
+/* MAIN NAV */
+section.nav{
+    height:min-content;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top:8%;
+    width:11%;
+}
+
+.nav_grid{
+    padding: 0;
+    display: block;
+    justify-content: space-between;
+}
+
+.nav_grid li{
+    margin-left: 10px;
+    width:100%;
+    text-align:left;
+    font-size:0.9rem;
+    margin-bottom:1rem;
+}
+
+.nav_grid a{
+    text-decoration: none;
+    color:black;
+    transition:all .3s;
+}
+
+.nav_grid a:hover{
+    text-decoration:underline;
+}
+
+.nav_background{
+    height:min-content;
+    position: fixed;
+    top: 0;
+    width: 11%;
+    padding-top: 200%;
+    left:0;
+    background-color: rgb(255, 255, 255);
+    border-right: 2px solid black;
+}
+/* MAIN NAV */
+
+
+
+
+
+
+/* GENERAL STUFF, HEADER/FOOTER */
+h1,h2{
+    margin:0;
+}
+
+h2{
+    padding-bottom: 15px;
+}
+
+.column_container {
+    width:960px;
+    margin: auto;
+    padding-bottom:41px;
+}
+
+header .column_container{
+    padding-top:220px;
+    padding-bottom:220px;
+    width: 1000px;
+}
+
+
+header h1{
+    font-family: 'Lexend Giga', sans-serif;
+    /* font-size: 160px; */
+    font-size: 8em;
+    letter-spacing: 46px;
+}
+
+header h2{
+    font-size: 50px;
+    padding-left: 140px;
+}
+
+section.intro_page{
+    padding-top: 60px;
+}
+
+footer{
+    padding-top:26px;
+    padding-bottom: 20px;
+    margin-top:120px;
+}
+
+footer p{
+    font-size: 15px;
+}
+/* GENERAL STUFF, HEADER/FOOTER */
+
+
+
+
+
+
+/* TRACKLIST NAV */
+section.tracklist_nav{
+    height:min-content;
+    position: fixed;
+    margin-left: 19%;
+    margin-right:15%;
+    top: 0;
+    width: 70%;
+    font-family: 'Lexend Giga', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.tracklist_nav_grid{
+    list-style-type: none;
+    float:none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tracklist_nav a{
+    text-decoration:none;
+    color:rgb(129, 110, 61);
+    transition: all .3s;
+}
+
+.tracklist_nav a:hover{
+    text-decoration: underline 2px;
+    color: black;
+}
+
+section.tracklist_nav_middle{
+    height:min-content;
+    position: fixed;
+    margin-left: 19%;
+    margin-right:15%;
+    top: 30px;
+    width: 70%;
+    font-family: 'Lexend Giga', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.tracklist_nav_grid_middle{
+    list-style-type: none;
+    float:none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tracklist_nav_middle li{
+    text-align:center;
+}
+
+.tracklist_nav_middle a{
+    text-decoration:none;
+    color:rgb(129, 110, 61);
+    transition: all .3s;
+}
+
+.tracklist_nav_middle a:hover{
+    text-decoration: underline 2px;
+    color: black;
+}
+
+section.tracklist_nav_bottom{
+    height:min-content;
+    position: fixed;
+    margin-left: 19%;
+    margin-right:15%;
+    top: 60px;
+    width: 70%;
+    border-bottom: 3px solid black;
+    font-family: 'Lexend Giga', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.tracklist_nav_grid_bottom{
+    list-style-type: none;
+    float:none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tracklist_nav_bottom li{
+    text-align:center;
+}
+
+.tracklist_nav_bottom a{
+    text-decoration:none;
+    color:rgb(129, 110, 61);
+    transition: all .3s;
+}
+
+.tracklist_nav_bottom a:hover{
+    text-decoration: underline 2px;
+    color: black;
+}
+/* TRACKLIST NAV */
+
+
+
+
+
+/* TRACKLIST NAV HIGHLIGHT */
+.nav_3d a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_closer_to_you a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_seven_explicit a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_standing_next_to_you a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_yes_or_no a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_please_dont_change a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_hate_you a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_somebody a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_too_sad_to_dance a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_shot_glass_of_tears a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_seven_clean a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+/* TRACKLIST NAV HIGHLIGHT */
+
+
+
+
+
+
+/* MORE SONGS NAV */
+section.more_songs_nav{
+    height:min-content;
+    position: fixed;
+    margin-left: 19%;
+    margin-right:15%;
+    top: 0;
+    width: 70%;
+    font-family: 'Lexend Giga', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.more_songs_nav_grid{
+    list-style-type: none;
+    float:none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.more_songs_nav a{
+    text-decoration:none;
+    color:rgb(121, 115, 124);
+    transition: all .3s;
+}
+
+.more_songs_nav a:hover{
+    text-decoration: underline 2px;
+    color: black;
+}
+
+section.more_songs_nav_bottom{
+    height:min-content;
+    position: fixed;
+    margin-left: 19%;
+    margin-right:15%;
+    top: 35px;
+    width: 70%;
+    border-bottom: 3px solid black;
+    font-family: 'Lexend Giga', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.more_songs_nav_grid_bottom{
+    list-style-type: none;
+    float:none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.more_songs_nav_bottom a{
+    text-decoration:none;
+    color:rgb(121, 115, 124);
+    transition: all .3s;
+}
+
+.more_songs_nav_bottom a:hover{
+    text-decoration: underline 2px;
+    color: black;
+}
+/* MORE SONGS NAV */
+
+
+
+
+
+
+/* MORE SONGS NAV HIGHLIGHT */
+.nav_too_much a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_dreamers a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_left_and_right a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_my_you a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_stay_alive a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+
+.nav_still_with_you a{
+    text-decoration: underline 2px;
+    color: black; 
+}
+/* MORE SONGS NAV HIGHLIGHT */
+
+
+
+
+
+/* SONG LYRIC SECTION */
+section.tracklist{
+    margin-top:-300px;
+}
+
+.tracklist{
+    padding-bottom:5%;
+}
+
+.tracklist h2{
+    font-size: 70px;
+    font-family: 'Lexend Giga', sans-serif;
+    letter-spacing: -7px;
+}
+
+.tracklist div{
+    margin-left: 25%;
+}
+
+/* SONG LYRIC SECTION */
+
+
+
+
+
+/* TRACKLIST VERSE LINE/INDICATOR */
+.pre-chorus{
+    margin-left:60px;
+    padding-left:20px;
+    border-left: 3px solid rgb(153, 132, 97);
+}
+
+.post-chorus{
+    margin-left:60px;
+    padding-left:20px;
+    border-left: 3px solid rgb(153, 132, 97);
+}
+
+.chorus{
+    margin-left:140px;
+    padding-left:20px;
+    border-left: 3px solid rgb(119, 96, 69);
+}
+
+.bridge{
+    margin-left:220px;
+    padding-left:20px;
+    border-left: 3px solid rgb(70, 52, 32);
+}
+/* TRACKLIST VERSE LINE/INDICATOR */
+
+
+
+
+
+/* MORE_SONGS VERSE LINE/INDICATOR */
+.ms-pre-chorus{
+    margin-left:60px;
+    padding-left:20px;
+    border-left: 3px solid rgb(156, 150, 162);
+}
+
+.ms-post-chorus{
+    margin-left:60px;
+    padding-left:20px;
+    border-left: 3px solid rgb(156, 150, 162);
+}
+
+.ms-chorus{
+    margin-left:140px;
+    padding-left:20px;
+    border-left: 3px solid rgb(117, 112, 122);
+}
+
+.ms-bridge{
+    margin-left:220px;
+    padding-left:20px;
+    border-left: 3px solid rgb(77, 75, 87)
+}
+/* MORE_SONGS VERSE LINE/INDICATOR */
+
+
+
+
+
+/* MV THUMBNAIL STYLING */
+img.thumbnail{
+    width:800px;
+    transition:all .1s;
+}
+
+img.thumbnail:hover{
+    box-shadow: 0px 0px 6px 4px rgba(10, 10, 10, 0.7);
+}
+/* MV THUMBNAIL STYLING */
+
+
+
+
+
+
+/* BUTTON STYLING */
+.button_grid{
+    list-style-type: none;
+    float:none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width:250px;
+}
+
+.button_links{
+    margin-top:-6%;
+    margin-bottom:20px;
+    margin-left:900px;
+}
+
+.button_links img{
+    width:50px;
+    margin-right:30px;
+}
+/* BUTTON STYLING */
+
+
+
+
+
+/* SOURCE PAGE */
+.source_page h2{
+    padding-left:0;
+    margin-left: 5px;
+    margin-top: -200px;
+    font-family: 'Lexend Giga', sans-serif;
+    font-size: 70px;
+    letter-spacing: -7px;
+}
+
+
+
+section.sources{
+    margin-top:-340px;
+    padding-bottom:100px;
+}
+
+.sources h3{
+    font-family: 'Lexend Giga', sans-serif;
+    font-weight: 400;
+    font-size:30px;
+}
+
+.source_link{
+    color: rgb(103, 94, 90);
+    font-size: 22px;
+    text-decoration: none;
+    font-family: "degular", sans-serif;
+    font-weight: 400; 
+}
+
+.source_link:hover{
+    text-decoration:underline;
+    color: black;
+}
+
+
+
+
+
+section.sources{
+    /* height:min-content; */
+    margin-left: 19%;
+    margin-right:15%;
+    top: 35px;
+    width: 70%;
+}
+
+.sources_grid{
+    list-style-type: none;
+    float:none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+/* SOURCE PAGE */
+
+
+
+
+/* MEDIA QUERY */
+@media (max-width: 1430px) {
+    header h1{
+        font-size:7.5em;
+    }
+    .intro_page div{
+        padding-left: 120px;
+    }
+
+}
+
+
+@media (max-width: 1350px) {
+    header h1{
+        font-size:6.5em;
+        padding-left:40px;
+    }
+    .intro_page div{
+        width:900px;
+    }
+
+
+    }
+
+}
+
+@media (max-width: 1150px) {
+    header h1{
+        font-size:6em;
+        padding-left:10px;
+    }
+    header h2{
+        padding-left:0px;
+    }
+    .intro_page div{
+        padding-left: 0px;
+        padding-right:50px;
+    }
+    footer{
+        padding-left: 0px; 
+    }
+    section.nav{
+        padding-top: 3%;
+    }
+    .nav_background{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    body{
+        /* width:max-content; */
+        min-width: fit-content;
+    }
+    header h1{
+        font-size:5.5em;
+        padding-left:20px;
+    }
+    .intro_page div{
+        padding-left: 50px;
+    }
+    footer{
+        padding-left: 50px;
+        width:max-content;
+    }
+    section.nav{
+        padding-top: 3%;
+        width:20%;
+    }
+    .nav_background{
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    header{
+
+    }
+    header h1{
+        font-size:5.5em;
+        padding-left:20px;
+    }
+    .intro_page div{
+        padding-left: 50px;
+    }
+    footer{
+        padding-left: 50px;
+    }
+    section.nav{
+        padding-top: 3%;
+        width:20%;
+    }
+    .nav_background{
+        display: none;
+    }
+}
+/* MEDIA QUERY */
