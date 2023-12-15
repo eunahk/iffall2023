@@ -7,8 +7,79 @@ html{
 }
 
 body{
+    margin-left: auto; 
+    margin-right: auto;
     margin: 0;
 }
+
+.banner{
+    background-image: url("img/jungkook_duotone.png");
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+}
+
+
+
+
+/* GENERAL STUFF, HEADER/FOOTER */
+h1,h2{
+    margin:0;
+}
+
+h2{
+    padding-bottom: 15px;
+}
+
+.column_container {
+    width:76%;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-bottom:41px;
+
+
+    /* width: 82%;
+    max-width: 50rem; */
+}
+
+header .column_container{
+    padding-top:220px;
+    padding-bottom:220px;
+    /* width: 1000px; */
+    margin-left: 15%;
+}
+
+
+header h1{
+    font-family: 'Lexend Giga', sans-serif;
+    /* font-size: 160px; */
+    font-size: 8em;
+    letter-spacing: 46px;
+    
+}
+
+header h2{
+    font-size: 50px;
+    /* padding-left: 140px; */
+}
+
+section.intro_page{
+    padding-top: 60px;
+}
+
+footer{
+    padding-top:26px;
+    padding-bottom: 20px;
+    margin-top:120px;
+}
+
+footer p{
+    font-size: 15px;
+}
+/* GENERAL STUFF, HEADER/FOOTER */
+
+
+
 
 
 
@@ -63,55 +134,52 @@ section.nav{
 
 
 
-
-/* GENERAL STUFF, HEADER/FOOTER */
-h1,h2{
-    margin:0;
+/* DROPDOWN MENU */
+.toggle_btn{
+    cursor: pointer;
+    display: none;
+    padding-left:10px;
+    padding-top: 120px;
 }
 
-h2{
-    padding-bottom: 15px;
+.dropdown_grid{
+    padding: 0;
+    display: block;
+    justify-content: space-between;
 }
 
-.column_container {
-    width:960px;
-    margin: auto;
-    padding-bottom:41px;
+.dropdown_menu{
+    display:none;
+    position:absolute;
+    height:0;
+    width: 140px;
+    background-color: rgba(255, 255, 255, 0.7);
+    overflow:hidden;
+    transition: height 0.2s cubic cubic-bezier(0.175, 0.885, 0.32, 1.275)
 }
 
-header .column_container{
-    padding-top:220px;
-    padding-bottom:220px;
-    width: 1000px;
+.dropdown_menu.open {
+    height: 200px;
 }
 
+.dropdown_grid li{
+    margin-left: 10px;
+    width:100%;
+    text-align:left;
+    font-size:0.9rem;
+    margin-bottom:1rem;
+} 
 
-header h1{
-    font-family: 'Lexend Giga', sans-serif;
-    /* font-size: 160px; */
-    font-size: 8em;
-    letter-spacing: 46px;
+.dropdown_grid a{
+    text-decoration: none;
+    color:black;
+    transition:all .3s;
 }
 
-header h2{
-    font-size: 50px;
-    padding-left: 140px;
+.dropdown_grid a:active{
+    text-decoration:underline;
 }
-
-section.intro_page{
-    padding-top: 60px;
-}
-
-footer{
-    padding-top:26px;
-    padding-bottom: 20px;
-    margin-top:120px;
-}
-
-footer p{
-    font-size: 15px;
-}
-/* GENERAL STUFF, HEADER/FOOTER */
+/* DROPDOWN MENU */
 
 
 
@@ -219,6 +287,10 @@ section.tracklist_nav_bottom{
 .tracklist_nav_bottom a:hover{
     text-decoration: underline 2px;
     color: black;
+}
+
+.mobile{
+    display:none;
 }
 /* TRACKLIST NAV */
 
@@ -388,6 +460,7 @@ section.more_songs_nav_bottom{
     text-decoration: underline 2px;
     color: black; 
 }
+
 /* MORE SONGS NAV HIGHLIGHT */
 
 
@@ -397,6 +470,8 @@ section.more_songs_nav_bottom{
 /* SONG LYRIC SECTION */
 section.tracklist{
     margin-top:-300px;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 .tracklist{
@@ -498,7 +573,7 @@ img.thumbnail:hover{
 /* BUTTON STYLING */
 .button_grid{
     list-style-type: none;
-    float:none;
+    float:right;
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -506,9 +581,9 @@ img.thumbnail:hover{
 }
 
 .button_links{
-    margin-top:-6%;
+    /* margin-top:-6%;
     margin-bottom:20px;
-    margin-left:900px;
+    margin-left:900px; */
 }
 
 .button_links img{
@@ -530,8 +605,6 @@ img.thumbnail:hover{
     font-size: 70px;
     letter-spacing: -7px;
 }
-
-
 
 section.sources{
     margin-top:-340px;
@@ -559,8 +632,6 @@ section.sources{
 
 
 
-
-
 section.sources{
     /* height:min-content; */
     margin-left: 19%;
@@ -581,100 +652,305 @@ section.sources{
 
 
 
-/* MEDIA QUERY */
-@media (max-width: 1430px) {
-    header h1{
-        font-size:7.5em;
-    }
-    .intro_page div{
-        padding-left: 120px;
-    }
-
-}
+/* RESPONSIVE DESIGN */
 
 
-@media (max-width: 1350px) {
-    header h1{
-        font-size:6.5em;
-        padding-left:40px;
-    }
-    .intro_page div{
-        width:900px;
-    }
 
+@media (max-width: 992px) {
 
-    }
-
-}
-
-@media (max-width: 1150px) {
-    header h1{
-        font-size:6em;
-        padding-left:10px;
-    }
-    header h2{
-        padding-left:0px;
-    }
-    .intro_page div{
-        padding-left: 0px;
-        padding-right:50px;
-    }
-    footer{
-        padding-left: 0px; 
-    }
-    section.nav{
-        padding-top: 3%;
-    }
-    .nav_background{
+    .nav_grid{
         display: none;
     }
-}
-
-@media (max-width: 1000px) {
-    body{
-        /* width:max-content; */
-        min-width: fit-content;
-    }
-    header h1{
-        font-size:5.5em;
-        padding-left:20px;
-    }
-    .intro_page div{
-        padding-left: 50px;
-    }
-    footer{
-        padding-left: 50px;
-        width:max-content;
-    }
-    section.nav{
-        padding-top: 3%;
-        width:20%;
-    }
     .nav_background{
-        display: none;
+        display:none;
     }
+    .toggle_btn{
+        display:block;
+    }
+    .dropdown_menu{
+        display: block;
+    }
+
+
+    .intro_page{
+        margin-left: ;
+    }
+
 }
 
-@media (max-width: 400px) {
-    header{
 
-    }
+
+
+
+@media (max-width: 1400px){
     header h1{
-        font-size:5.5em;
-        padding-left:20px;
+        font-size: 5em;
+        letter-spacing: 35px;
     }
-    .intro_page div{
-        padding-left: 50px;
-    }
-    footer{
-        padding-left: 50px;
-    }
-    section.nav{
-        padding-top: 3%;
-        width:20%;
-    }
-    .nav_background{
-        display: none;
+
+    .tracklist img{
+        width:600px;
     }
 }
-/* MEDIA QUERY */
+
+
+
+
+
+@media (max-width: 1000px){
+    header h1{
+        font-size: 4em;
+        letter-spacing: 25px;
+    }
+   
+    .tracklist .column_container{
+        margin-left:auto;
+    }
+
+    .tracklist img{
+        width:470px;
+    }
+
+    section.tracklist_nav{
+        margin-left: 10%;
+        width:75%;
+        font-size: 12px;
+    }
+
+    section.tracklist_nav_middle{
+        margin-left: 10%;
+        width:75%;
+        font-size: 12px;
+    }
+
+    section.tracklist_nav_bottom{
+        margin-left: 10%;
+        width:75%;
+        font-size: 12px;
+    }
+
+    section.more_songs_nav{
+        margin-left: 10%;
+        width:75%;
+        font-size: 12px;
+    }
+
+    section.more_songs_nav_bottom{
+        margin-left: 10%;
+        width:75%;
+        font-size: 12px;
+    }
+
+    .source_page{
+        margin-left: -10%;
+    }
+
+    .source_page h2{
+        font-size: 60px;
+    }
+
+    .sources_grid{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 700px){
+    .banner .column_container{
+        margin-left:auto;
+    }
+
+    header h1{
+        font-size: 3em;
+        letter-spacing: 15px;
+    }
+            
+    .tracklist .column_container{
+        margin-left:auto;
+    }
+
+    .tracklist img{
+        width:400px;
+    }
+    
+    .tracklist h2{
+        padding-top: 5px;
+        font-size: 60px;
+    }
+
+
+    section.tracklist_nav{
+        display:none;
+    }
+
+    section.tracklist_nav_middle{
+        display:none;
+    }
+
+    section.tracklist_nav_bottom{
+        display:none;
+    }
+
+    section.more_songs_nav{
+        display:none;
+    }
+
+    section.more_songs_nav_bottom{
+        display:none;
+    }
+
+    section.mobile{
+        display: block;
+        margin-left: 10%;
+        margin-right: 6%;
+        width:75%;
+        font-size: 15px;
+    }
+
+
+    .tracklist h2{
+        padding-top: 15px;
+        font-size: 50px;
+    }
+
+    .pre-chorus{
+        margin-left:30px;
+    }
+    
+    .post-chorus{
+        margin-left:30px;
+    }
+    
+    .chorus{
+        margin-left:80px;
+    }
+    
+    .bridge{
+        margin-left:150px;
+    }
+
+
+    .ms-pre-chorus{
+        margin-left:30px;
+    }
+    
+    .ms-post-chorus{
+        margin-left:30px;
+    }
+    
+    .ms-chorus{
+        margin-left:80px;
+    }
+    
+    .ms-bridge{
+        margin-left:150px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 500px){
+    .banner .column_container{
+        margin-left:auto;
+    }
+    
+    header h1{
+        font-size: 2.5em;
+        letter-spacing: 7px;
+    }
+        
+    .tracklist .column_container{
+        margin-left:auto;
+    }
+
+    .tracklist img{
+        width:330px;
+    }
+
+
+    section.tracklist_nav{
+        display:none;
+    }
+
+    section.tracklist_nav_middle{
+        display:none;
+    }
+
+    section.tracklist_nav_bottom{
+        display:none;
+    }
+
+    section.more_songs_nav{
+        display:none;
+    }
+
+    section.more_songs_nav_bottom{
+        display:none;
+    }
+
+    section.mobile{
+        display: block;
+        margin-left: 10%;
+        margin-right: 6%;
+        width:80%;
+        font-size: 15px;
+    }
+
+
+    .tracklist h2{
+        padding-top: 15px;
+        font-size: 50px;
+    }
+
+    .pre-chorus{
+        margin-left:20px;
+    }
+    
+    .post-chorus{
+        margin-left:20px;
+    }
+    
+    .chorus{
+        margin-left:60px;
+    }
+    
+    .bridge{
+        margin-left:120px;
+    }
+
+
+    .ms-pre-chorus{
+        margin-left:20px;
+    }
+    
+    .ms-post-chorus{
+        margin-left:20px;
+    }
+    
+    .ms-chorus{
+        margin-left:60px;
+    }
+    
+    .ms-bridge{
+        margin-left:120px;
+    }
+}
+
+
+
+
+
+@media (min-width: 992px){
+    .intro_page {
+        margin-left: 14%;
+    }
+    
+}
